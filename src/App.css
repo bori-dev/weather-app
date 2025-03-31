@@ -1,0 +1,19 @@
+body {
+  background-image: url(https://images.all-free-download.com/images/graphiclarge/weather_background_cute_stylized_icons_decor_6835599.jpg);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.weather-box{
+  border: 3px solid white; 
+  padding: 50px;
+  border-radius: 50px;
+  background-color: white;
+}
