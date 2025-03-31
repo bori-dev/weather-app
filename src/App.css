@@ -17,3 +17,43 @@ body {
   border-radius: 50px;
   background-color: white;
 }
+
+.selected {
+  background-color: rgb(98, 197, 231) !important;
+  color: white !important;
+}
+
+.error-message {
+  color: blue;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.weather-container {
+ margin-bottom: 20px;
+}
+
+.weather-button {
+  margin-right: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+  }
+}
+@media (max-width: 768px) {
+  .button-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .weather-button {
+    width: 150px;
+    margin-top: 5px;
+  }
+}
